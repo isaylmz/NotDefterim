@@ -1,0 +1,26 @@
+body {
+	background-color: #D3D3D3;
+}
+
+.body{
+	border: 1px solid gray;
+	width: 245px;
+	padding: 10px;
+	margin: 200px auto;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+form{
+	margin:10px;
+}
+
+input{
+	width: 200px;
+	height: 25px;
+}
+
+button{
+	width: 210px;
+	height: 25px;
+}

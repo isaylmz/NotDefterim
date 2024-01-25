@@ -1,0 +1,123 @@
+/*Genel düzenleme*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*Arka plan ekleme*/
+	background-image: url("../img/bannerr.jpg");
+	background-size: cover; /*Resimi sığdırma*/
+	background-position: center; /*Resimi ortalama*/
+	background-attachment: fixed; /*Resim sabitleme*/
+}
+
+.cont {
+	width: 275px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 100px 0;
+	background-color: rgb(51,51,51,0.75);
+	color: white;
+	float: left;
+	/*Jquery için gerekli*/
+	position:relative;
+}
+
+.resim {
+	width: 75px;
+	margin: 20px 80px;
+}
+
+.icerik1 {
+	float: left;
+	opacity: 0;
+}
+
+.icerik2 {
+	float: right;
+	opacity: 0;
+}
+
+.icerik3 {
+	margin: 40px 10%;
+}
+
+#scrol {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 10px 10px;
+	color: white;
+	background-color: blue;
+	opacity: 0;
+}
+
+#resim2 {
+	opacity: 0;
+}
+
+/*Menü Düzeni*/
+nav {
+	/*overflow: hidden; Kutu görünümü*/
+	background-color: #E7E7E7;
+	position: fixed; /*Sabitleme*/
+	top: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+
+nav a {
+	float: left; /*yada "display: inline-block;" Yanyana getirme*/
+	color: #333;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+nav a.logo {
+	font-family: Verdana;
+	font-size: 25px;
+	color: #000;
+}
+
+.button {
+	float: right;
+	font-weight: bold;
+}
+
+/*Sayfa düzeni*/
+.banner {
+	color: #333;
+	margin: 300px 5%;
+	padding: 0 20px;
+	text-align: left;
+	border-left: 5px solid #333;
+	opacity: 0;
+}
+
+.tek {
+	color: #333;
+	background-color: #F5F5F5;
+	width: 100%;
+	height: 500px;
+}
+
+.çift {
+	color: #333;
+	background-color: #FAFAFA;
+	width: 100%;
+	height: 700px;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	color: white;
+	display: flex;
+}
